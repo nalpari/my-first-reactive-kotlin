@@ -3,3 +3,13 @@ spring:
     url: r2dbc:mariadb://127.0.0.1:3306/myfirst?useUnicode=true&characterEncoding=utf8
     username: nalpari
     password: qwer1234
+
+springdoc:
+  default-consumes-media-type: application/json
+  default-produces-media-type: application/json
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  cache:
+    disabled: true

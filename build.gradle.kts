@@ -25,6 +25,8 @@ dependencies {
 	implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
+	// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webflux-ui
+	implementation("org.springdoc:springdoc-openapi-starter-webflux-ui:2.3.0")
 	runtimeOnly("org.mariadb:r2dbc-mariadb:1.1.3")
 	runtimeOnly("org.mariadb.jdbc:mariadb-java-client")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
